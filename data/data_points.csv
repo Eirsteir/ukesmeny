@@ -1,0 +1,607 @@
+instruction,input,response
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk minestronesuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med laks. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingfilet med soppsaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk risotto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lammeburger med kantareller og tyttebærkrem. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lam i pita. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tradisjonell fårikål. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Quinoasalat med gresskar. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget tomatsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ravioli med sopp. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel lys lapskaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel grønnsakssuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Middagssalat med kikerter og feta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel middelhavspasta med oliven. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tortellini med kylling og pesto. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grønnsakssuppe med pølse. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Baked feta pasta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsuppe med kikerter og grønnkål. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatisk salat med nudler og mango. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget lasagne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pitabrød med reinsdyrkjøtt. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsalat med syrlig dressing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Steinsopprisotto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fajitas med biffstrimler og bakt løksalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk pasta carbonara. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fisk og skalldyrsuppe med safran. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Biffsalat à la Thailand. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med kyllingkjøttdeig. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget kebab i pita. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Cobb salat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Røkte kjøttpølser med smørdampede rotgrønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Gratinert krabbeskjell. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Verdens beste lapskaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta Bolognese. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med pesto og ricotta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet sellerirotsuppe med hasselnøttsmør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lammeboller i tomatsaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta a la vodka. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pizza di Parma. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Gratinert nachos med kjøttdeig. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Biff stroganoff. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grov fiskeburger med avokado. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk kjøttsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med kylling og bacon. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lammegryte med eple og persillerot. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Oksehalesuppe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt kylling med rotgrønnsaker og appelsin. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetartaco med sopp og bønner. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hvit pizza med sopp og rødkittost. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med krabbe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Panerte lammekoteletter med grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lammecurry. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Høstsalat med kylling og ovnsbakte grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingtaco med granateple og mango. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fisketaco med laks og avokado. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stroganoff med sopp. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Thai red curry med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelagde kjøttkaker i brun saus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastasalat med spekeskinke og pesto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt indrefilet med hasselback poteter og kremet sopp. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Rask cheeseburger med chipotlemajones. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt laksefilet med brokkoli og tomater. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Speltrisotto med bakte rotgrønnsaker og paprikasaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pannekaker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllinggryte med bacon og sopp. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sodd. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Urtebakt kveitefilet med honningglaserte rotgrønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stifado. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks med mango- og avokadosalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Oksestek med stekte grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt laks med kremet saus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk norsk taco – fersk og hjemmelaget. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Posjert kveite med smørdampede grønnsaker og sandefjordsmør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med indrefilet og pesto. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskeburger med tzatziki og eple. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ravioli med sopp. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt torsk med hvitløksmør og søtpotet. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget chili con carne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pastasalat med skinke. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel bacalao. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med kjøttboller. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt laks med spisskål og grønnkål. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt torsk med kikerter og chorizo. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Baked feta pasta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grove quesadillas med kylling og grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastasalat med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks med mango- og avokadosalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kveite med mandler og hvitløkssmør. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling parmesan. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Cæsarsalat med kylling og bacon. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta a la vodka. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelagde fiskeboller. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Poke bowl med laks, mango og granateple. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med kjøttboller og rød pesto. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Potet- og purreløksuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Quesadillas med entrecôte. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med kylling og bacon. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Grønnsakslasagne med søtpotet, aubergine og grønnkål. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk pasta carbonara. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Boeuf Bourguignon. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hvit pizza med sopp og rødkittost. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelagde fiskekaker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatiske blåskjell. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget nigiri sushi. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pizza capricciosa. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Thaisalat med peanøttdressing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk risotto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Verdens beste lapskaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk pasta carbonara. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Jennifer Aniston salat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sitronbakt sei med sellerirotpuré. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Thai red curry med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling i airfryer. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelagde kjøttkaker i brun saus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tacogryte med bønner og tomat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel lys lapskaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med svinefilet og pesto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt kylling med ovnsbakte rotgrønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk coq au vin. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet kyllinggryte med bacon. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Angusburger med blåmuggost. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Rask fiskegryte. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Kyllingburger med bacon, guacamole og karamellisert løk. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grateng med rotgrønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med søtpotetmos og brokkolisalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastasalat med pesto og fetaost. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hot kyllingsuppe med eple og gulrot. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: One pot pasta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt TikTok tomatsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Salat med asparges, laks og jordbær. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel middelhavspasta med oliven. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet soppsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sommerruller med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarlasagne med linser. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med krabbe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet fiskesuppe - MENYs egen. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Spicy ostepølse med syltet rødløk. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastasalat med spekeskinke og pesto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk pasta carbonara. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: BBQ cheeseburger med coleslaw. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt middelhavskylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Saftig lakseburger med coleslaw. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Bakt søtpotet med fetaost, avokado og soltørket tomat. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling red curry. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskekake i pita. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Indisk grønnsaksgryte. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Frisk salat med appelsindressing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pai med røkelaks og asparges. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet lakseburger med mangosalsa. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Omelettwrap med grillet kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pastasalat med skinke. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingsalat med honningdressing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling med blomkålris og appelsin. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel butter chicken. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskeburger med tzatziki og eple. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks i folie med ramsløksmør. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks i form med creme fraiche og appelsin. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt svinefilet. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Klassisk Angusburger med cheddar, bacon og sprøstekt løk. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillspyd med svin og grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med søtpotetmos og brokkolisalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastasalat med tomat og basilikum. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Baked feta pasta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Quesadillas med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sprø tofu wrap. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsalat med syrlig dressing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Poke bowl med laks, mango og granateple. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ceviche med laks og mango. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk risotto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastasalat med pesto og fetaost. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingpai med mozzarella. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskeburger med røkelaks og rødløk. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Green curry med villreker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Glaserte asparges med grillet laks og urte-hollandaise. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet vårløk med potetkrem og surdeigsbrød. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Saftig grønnkålpai. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med couscous. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks teriyaki med ris. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pølsegrateng med pasta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sushivaffel. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lakseburger med syltet rødløk. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling fajitas. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tortellini med kylling og pesto. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt kylling med ovnsbakte rotgrønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Angusburger med blåmuggost. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Smash burger. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tortelliniform med pølse. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskeburger med tzatziki og eple. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel kylling Gong Bao. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med søtpotetmos og brokkolisalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling med blomkålris og appelsin. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grønnsakssuppe med pølse. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Philly cheese steak med biff. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med avokadokrem. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk minestronesuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lakseburger med mango. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt kyllingfilet med appelsinsaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling red curry. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med ovnsbakte grønnsaker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsuppe med kikerter og grønnkål. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lakseburger med tzatziki. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllinggryte med fløte og grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatiske bao buns. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel Tikka Masala med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sliders med krabbe og srirachamajones. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget butter chicken. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kjøttfri indisk kofta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta al limone. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingwok med hoisinsaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta a la vodka. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Chili sin carne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Wok med villreker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelagde fiskekaker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pizza med biffsnadder. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarlasagne med linser. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarisk høstgryte. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Strimlet lam i ølsaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Bali kyllinggryte. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt laks med kremet saus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Gratinert kjøttform. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkåltaco med mangosalsa. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt ris med egg og kylling. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Linsegryte med chili og ingefær. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Halloumisalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget vegetardeig til taco. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingsandwich med avokado og søt sennep. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet kyllinggryte med bacon. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Red curry med kongereker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grov fiskeburger med avokado. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enchiladas med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: BBQ cheeseburger med coleslaw. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Salsiccia med syltet rødløk og potetbåter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatisk laks med mangosalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet fiskegryte med laks. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Loaded veggie nachos. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hamburger i focaccia med grillet løk og aioli. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tortelliniform med pølse. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Bakt søtpotet med vegansk fyll. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asparges med sitronhollandaise. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Gulrotsuppe med chili, appelsin og ingefær. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Bakt søtpotet med ingefær og gressløksmør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Green curry med kylling. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Italiensk kyllinggryte. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Bakt søtpotet med mango, avokado og granateple. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Bakt gulrotsalat med druer og nøtter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ramen nudelsuppe med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt kylling med blomkålris. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta Bolognese. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enchiladas med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fullkornswrap med reinskav og cashewnøtter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med ovnsbakte grønnsaker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Biffwok med nudler og mango. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk pasta carbonara. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Røkte kjøttpølser med smørdampede rotgrønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Wok med torsk, kikerter og spinat. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Bali kyllinggryte. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pølsegrateng med pasta. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Wok med villreker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fullkornspasta med kremet grønnkål. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsuppe med kikerter og grønnkål. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stifado. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter med byggrynsalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarlasagne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta Alfredo. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllinggrateng med grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks teriyaki med ris. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med kjøttboller. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarburger med hummus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Wok med svinekjøtt og nudler. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lun salat med gulrøtter og avokado. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarburger med hummus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ramen nudelsuppe med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Italiensk kyllinggryte. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Grove wraps med kylling, avokado og mango. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Cæsarsalat med kylling og bacon. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget lasagne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget chili con carne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med lun fransk potetsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kjøttboller i fløtesaus med potetmos. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Quesadillas med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Moussaka. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pølsegrateng med grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Middagsbowl med kylling og appelsin. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Høstsalat med kylling og ovnsbakte grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling i kokossaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Gratinert kjøttform. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta carbonara med bacon og kylling. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt kylling med blomkålris. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enchiladas med kjøttdeig. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatisk kyllingsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med laks. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingpai med mozzarella. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk lammefrikassé. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grove quesadillas med kylling og grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet fiskesuppe med blåskjell og reker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet BBQ-kylling med salat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med kjøttsaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Indisk curry med kikerter og spinat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tacogryte med bønner og tomat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med blåskjell. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetar bowl. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget tomatsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Spaghetti bolognese med oksekraft og soltørket tomat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastagrateng med kjøttdeig. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget chili con carne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med søtpotetmos og brokkolisalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet kyllinggryte med bacon. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med saftig kylling og hjemmelaget pesto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med kyllingkjøttdeig. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet kyllinggryte med bacon. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Amerikanske pannekaker med bacon. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Middagsbowl med kylling og appelsin. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med fersken og chili. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Grønnsakslasagne med søtpotet, aubergine og grønnkål. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tacopai med kjøttdeig. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarcurry. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sommerkoteletter med grillet hjertesalat og roquefortdressing. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskewok med grønnkål og sweet chilisaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Pannekaker fylt med bacon, brie og lønnesirup. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel lys lapskaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kung Pao chicken. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet pasta med grillet kylling og hjemmelaget fløtesaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kylling- og karrigryte. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Rask fiskegryte. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks i form. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Poke med laks og quinoa. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkle pizzasnurrer med tacokjøttdeig. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med medisterboller. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks med pesto og potetsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter i form. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt kveite med gresk salat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Wraps med torskepinner og asiatisk dressing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Minipizza. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Wok med grønnsaker, nudler og kjøttpølse. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Saftig lakseburger med tzatziki. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fullkornspizza med kylling og ananas. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatisk salat med glassnudler og pulled vegetar. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Rask stroganoff med strimlet svinekjøtt. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Spicy tacosalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Thai red curry med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget spinatsuppe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lapskaus uten kjøtt. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grove og smakfulle vegetarwraps. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Wok med nudler, tomatsaus og kjøttboller. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta carbonara med bacon og kylling. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grove og smakfulle vegetarwraps. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Viltgryte med reinsdyr. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel pizza med karbonadedeig. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskekaker i pita med aioli og reker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med cornflakes og stekt paprika. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Cubansk ostesmørbrød med Sveitser, pulled pork og sylteagurk. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Wok med villreker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel lys lapskaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Quesadilla med tacokjøtt, chunky salsa og guacamole. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk vegetarburger med poteter og bernaise. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lakseburger med tzatziki. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fullkornswrap med reinskav og cashewnøtter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarisk Buddha bowl. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter med rødvinssaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Krabbesmørbrød med aioli og sweet chili. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatisk kyllingsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fylte pannekaker med ost og skinke. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatisk salat med glassnudler og pulled vegetar. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Krabbeterte med tomatsalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter med rødkål. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Indisk curry med kikerter og spinat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks med kryddersmør og grønnsakspakke. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kung Pao chicken. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastasalat med pesto og fetaost. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget fiskegrateng med makaroni. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med sjampinjongstuing. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fullkornspasta med kremet grønnkål. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kremet fiskesuppe med laks og reker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: God vegetarsalat med byggryn og gojibær. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Kylling i form med urter, tomat og fløte. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lettsaltet torsk med eggesmør og gulrot. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Wok med reinsdyrskav. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget blomkålsuppe med spekeskinke. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med reker og sukkererter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Dumplings fylt med reker og krabbe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Green curry med kylling. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pastasalat med tomat og basilikum. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskeburger med tzatziki og eple. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelagde italienske kjøttboller. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel fiskesuppe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarbiff med bearnaisesaus og tomatsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Bacalao. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget løksuppe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt kylling med kikerter og paprika. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Seibiff med løk. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med saftig kylling og hjemmelaget pesto. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fylte svinekoteletter med frisk bønnesalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Wraps med pølse og kålsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Meksikansk tomatsuppe med chorizo og rødløk. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarlasagne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Panert fisk med kålsalat og ris. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Blomkålsuppe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingwok med nudler og grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel gryte med kjøttkaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget italiensk pizza med bacon. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enchiladas med kjøttdeig. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pizzasnurrer med skinke. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet laks med agurksalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lettsaltet torsk og sukkererter i folie med dill- og chilismør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lettsaltet torsk med erter og serranoskinke. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt torsk med kikerter og chorizo. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt torsk med persilleskorpe og linsestuing. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt makrell med smørstekt purre. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt torsk med grønnsaker og teriyakisaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt laks med blomkålpuré og ristede mandler. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt torsk med bacon og hummus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingfilet i ovn med bacon og paprikasalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Baconsurret kyllingfilet med brie. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fylte svinekoteletter med balsamicobakt løk og salat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt svinefilet med grønnsaksform. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fylte svinekoteletter med frisk bønnesalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lammekoteletter i form med sopp og rosmarin. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Marinert svinefilet med asparges og chèvresalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllinglår med tomat og pastasalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter med gratinert brokkoli og purre. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinefilet i form. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter i form. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med lun fransk potetsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Viltkarbonader med sopp, kål og selleripuré. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Surret lammestek med rosmarin og sopprisotto. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hummer med asparges og creme fraiche. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks med mango- og avokadosalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grytestekt lammelår i mørkt øl med rotgrønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelaget nigiri sushi. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Urte- og kaperslaks. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Gruyère- og pepperrotgratinert ytrefilet. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lakseskiver i folie med grønnsaker og sitron- og dillsmør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Hel laks med sitron, urter og potetskiver. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt reinsdyrplomme. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt entrecôte med chimichurri. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt indrefilet med hasselback poteter og kremet sopp. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sashimi av laks. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Urtepanerte koteletter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks fylt med avokado og lime. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Skrei med spekeskinke, hollandaise, gulrøtter og ertepuré med mynte. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Taco med laks, spinat, frisk salsa og fetaost. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fisketaco med torsk. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Skrei med smak av middelhavet. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt lammelår à la Provence. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sommerkoteletter med grillet hjertesalat og roquefortdressing. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Spareribs med grillet søtpotet. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Omelettwrap med grillet kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Glasert svineribbe med kålsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Melkefri lasagne. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grønnsakslasagne med paprika og spinat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: BBQ lakseburger. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Baconstekt kalkunfilet med ovnsbakte grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksewrap med avokado. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelagde fiskepinner i wrap. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks med kryddersmør og grønnsakspakke. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter med rødvinssaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med couscous. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med couscoussalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatisk grillribbe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Torskefilet med ovnsbakte grønnsaker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Lakseburrito med agurk, rømme og sukkererter. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter med byggrynsalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Dampet torsk med sennepssaus og rødkål. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ribbe med brokkolisalat og saltkokte poteter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Steamed buns med svinekjøtt. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt torsk med sennepssaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter med rødkål. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Grillet lakseburger med bacon, grønnkål og parmesan. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Vegetarburger med grillet mais, sopp og tortillachips. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarburger med coleslaw. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarburger med hummus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillribbe med maisstuing. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sitronkylling med urter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt kyllingfilet med appelsinsaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Panert fisk med chilimajones. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Beyond Meat burger med pommes frites. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Elgkarbonader med soppstuing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lettsaltet torsk i form. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks teriyaki med ris. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarburger med halloumi og grillede grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Helstekt svinefilet. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Urtestekt reinsdyrfilet med rosépepper, rødkål og jordskokk. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Reinsdyrtaco i potetlefse med tyttebærrømme. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Reinsdyrcarré med gresskarpuré og sennepsjy. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Urtemarinerte lammekoteletter med grillet halloumi. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med pesto. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks i folie med ramsløksmør. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt skrei med hvit saus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillribbe med ovnsbakte grønnsaker. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk elgstek. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet ytrefilet av svin med maisstuing og BBQ-saus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet svinefilet i brioche brød. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet biff med søtpotetmos. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Saftig biff med fløtepoteter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Indrefilet av okse med aspargesbønner og rødvinssaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Indrefilet av okse med potetmos og ovnsbakte tomater. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med søtpotetmos og brokkolisalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Poke med laks og quinoa. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks med pesto og potetsalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillspyd med kylling. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillspyd med svin og grønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet kveite med aspargesbønner. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sommerkoteletter med stekt paprika. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet hummer med kryddersmør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hummersalat med asparges og chilimajones. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kokt hummer med klassisk tilbehør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Grillet svinefilet med fersken, potetmos og BBQ saus. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet svinefilet. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet svinefilet med fløtepoteter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Poke salat med laks og ananas. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Urtebakt laks med ratatouille og potetmos. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskepinner med poteter og brokkoli. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Entrecôte med chimichurri og urtepoteter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Saftig biff med szechuan saus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekte svinekoteletter med surkål. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Torskefilet med ovnsbakte poteter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter med ovnsbakte poteter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ørretfilet med kremet saus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Entrecôte med kryddersmør og stekt hjertesalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pasta med indrefilet og pesto. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Baconsurret indrefilet med rosettkål og fløtegratinerte poteter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Marinert laks med bønnesalat og ratatouille. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Rosmarin- og hvitløksmarinert torskefilet med ertepuré, ratatouille og timianpoteter. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Urtebakt kveitefilet med honningglaserte rotgrønnsaker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Salat med laks, appelsin og avokado. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Kalkunfilet med ertepurè, spinat og brun saus. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks med fennikel- og mangosalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt laks med ramsløk og ratatouille. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks i form med creme fraiche og appelsin. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lakseburger med tzatziki. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Reinsdyrfilet med pastinakkpuré. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lettsaltet torsk med kremet hvitløksaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Thai red curry med kylling. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ytrefilet av hjort med pastinakkpuré og viltsaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Bresert lammestek i skiver. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Torskefilet med pesto og bønnesalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllingfilet i wrap med BBQ saus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Asiatisk byggrynssalat med laks og gulrøtter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakte kyllinglår med rotgrønnsaker og tomater. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Urtebakt laksefilet i form. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet kyllinglår med coleslaw. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Nakkekoteletter i form. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Chilimarinert grillribbe og potetsalat med kefir. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Quesadillas med krabbe. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Gratinert krabbeskjell. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lakseburger med purre og reker. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Laks og tunfisk tataki med fennikelsalat, stekte nudler og teriyaki. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Sprøstekt makrell og nypotetsalat med dill, rødbete og kapers. Offers: .",Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Quesadillas med entrecôte. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Saftig entrecôte med søtpotet fries og béarnaise. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt mørbrad med nøttebrunt soyasmør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hvitvinsdampede blåskjell. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Hjemmelagde elgkarbonader. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Parmesan crusted ytrefilet av svin. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Reinsdyr indrefilet med konjakksaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Porchetta. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt kveite med appelsinglasert fennikel og granateplesalsa. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Skinnstekt kveitefilet med grønnkål og safransaus. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Skrei med rotmos og sprøstekt bacon. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet laksefilet med grønnkål. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Urtepanert laksefilet. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kveitebiff med mangosalat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt skrei med baconsjy og mandelpoteter. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Saftige spareribs. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Torsk saltimbocca. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Wraps med torskepinner og asiatisk dressing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Dampede blåskjell. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med cornflakes og stekt paprika. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Grønnsakslasagne med søtpotet, aubergine og grønnkål. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Vegetarlasagne. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Tacotubs med torskepinner. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Skrei med spinat og granateple. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sprøstekte torsketunger med chilimajones. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laks i form. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Fiskepinner med revet gulrot og remulade. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Lettsaltet torsk med eggesmør og gulrot. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Saftig kyllinglår med svartkål og edamamebønner. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kyllinglår i form med druer. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt kyllinglår med edamamebønner. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Glaserte asparges med grillet laks og urte-hollandaise. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Sesamstekt laks med soyadressing. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Rekesalat med avokado og mango. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Grillet makrell med primørsalat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Makrell blings med syltet rabarbra. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kamskjell og kongereker i pitabrød. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel lasagne. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt kveite med sellerirotpure og stekt spinat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Posjert kveite med smørdampede grønnsaker og sandefjordsmør. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt kveite med couscous salat. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekt kveite med gresk salat. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Klassisk rekesmørbrød. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Svinekoteletter med rotmos. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Laksefilet med potetmos. Offers: .,Low relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel poke med laks. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Stekt laksefilet med poteter, spinat og asparges. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Reinsdyrskav med syltede grønnsaker og hoisin. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,"Recipe: Posjert skrei med syltet rødløk, bakte tomater og hollandaisesaus. Offers: .",High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Pepperkrabbe. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Ovnsbakt reinsdyrfilet med Selbu Blå og pære. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Stekte koteletter med ølsaus. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Kveite med spinat og hollandaise. Offers: .,High relevance
+Evaluate the relevance of the following recipe based on this week's offers.,Recipe: Enkel bacalao. Offers: .,High relevance
