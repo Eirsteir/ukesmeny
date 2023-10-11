@@ -16,7 +16,7 @@ OPENAI_MODEL = "gpt-3.5-turbo"
 
 logger = logging.getLogger(__name__)
 
-recipes = pd.read_pickle("data/recipies.pkl")
+recipes = pd.read_pickle("data/merged_recipies_and_weekly_menus.pkl")
 uri = "dataset/chainlit-recipes-lancedb"
 db = lancedb.connect(uri)
 table = db.create_table("recipes", recipes, mode="overwrite")
@@ -25,6 +25,7 @@ table = db.create_table("recipes", recipes, mode="overwrite")
 template = """Du er et anbefalingssystem av oppskrifter. Gitt brukerens preferanser, anbefal en ukentlig middagsmeny bestående av 7 oppskrifter.
 For hver dag i uken, gi oppskriften i formatet: 'Navn på dag: Oppskriftsnavn - Kort beskrivelse - Grunn'.
 Hvis du ikke vet svaret, prøv å finne andre oppskrifter du tror gir variasjon til de andre oppskriftene.
+Hvis du fortsatt ikke vet svaret, spør brukeren om de har noen preferanser. 
 Hvis du fortsatt ikke vet svaret, ikke prøv å finne på et svar.
 
 {context}

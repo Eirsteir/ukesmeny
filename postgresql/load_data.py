@@ -2,7 +2,7 @@ import pandas as pd
 from setup import Recipe, Ingredient, get_session
 
 if __name__ == "__main__":
-    recipes_df = pd.read_csv("data/all_recipe_details.csv")
+    recipes_df = pd.read_csv("../data/all_recipe_details.csv")
     recipes_df["Ingredients"] = recipes_df["Ingredients"].apply(lambda x: x.split(", "))
     ingredients = recipes_df["Ingredients"].explode().unique()
 
