@@ -11,7 +11,7 @@ sqlalchemy~=2.0.21
 psycopg2~=2.9.9
 
 # Langchain
-langchain~=0.0.308
+langchain~=0.0.312
 openai~=0.28.1
 tiktoken~=0.5.1
 matplotlib~=3.8.0
@@ -23,5 +23,6 @@ lark~=1.1.7
 chromadb~=0.4.13
 
 # Chainlit
-chainlit~=0.7.1
+chainlit~=0.7.2
 chromadb~=0.4.13
+simsimd~=2.3.8
