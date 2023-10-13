@@ -3,6 +3,8 @@
 __pycache__/
 .chainlit/
 dataset/
+neo4j/neo4j/data/
+neo4j/neo4j/plugins/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
