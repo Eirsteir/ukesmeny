@@ -1,11 +1,11 @@
 import os
 import time
+from dataclasses import dataclass
 
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from tqdm import tqdm
-
 
 DINNERS_URL = "https://meny.no/oppskrifter/middagstips/"
 RECIPIE_DETAIL_URL = "https://platform-rest-prod.ngdata.no/api/recipes2/1300/"
@@ -13,9 +13,20 @@ BASE_URL = "https://meny.no/"
 WEEKLY_MENU_URL = "https://meny.no/api/weeklyrecipeservice/"
 CURRENT_OFFERS_URL = "https://platform-rest-prod.ngdata.no/api/products/1300/7080001271923?page=1&page_size=140&full_response=true&fieldset=maximal&facets=Category%2CAllergen&facet=IsOffer%3Atrue%3BCategories%3AMiddag&showNotForSale=true"
 
-CSV_IDS_FILE = "data/meny_all_recipe_ids.csv"
-CSV_OUT = "data/meny_all_recipe_details.csv"
-CSV_WEEKLY_MENUS = "data/meny_weekly_menus.csv"
+CSV_IDS_FILE = "data/scraping/meny/meny_all_recipe_ids.csv"
+CSV_OUT = "data/scraping/meny/meny_all_recipe_details.csv"
+CSV_WEEKLY_MENUS = "data/scraping/meny/meny_weekly_menus.csv"
+
+
+@dataclass
+class Recipe:
+    id: str
+    title: str
+    description: str
+    ingredients: str
+    year: int = None
+    week: int = None
+    week_day: str = None
 
 
 def extract_recipe_ids(page_content):
@@ -43,9 +54,14 @@ def fetch_recipe_details(recipe_id):
 
 
 def scrape_recipie_ids() -> list[str]:
+    print("Scraping recipe IDs...")
+
     if os.path.exists(CSV_IDS_FILE):
-        print("Using existing recipe IDs from all_recipe_ids.csv")
         df = pd.read_csv(CSV_IDS_FILE)
+        all_recipe_ids = df["Recipe_ID"].tolist()
+        print(
+            f"Using {len(all_recipe_ids)} existing recipe IDs from all_recipe_ids.csv"
+        )
     else:
         all_recipe_ids = []
         page_number = 1
@@ -83,33 +99,38 @@ def scrape_recipie_ids() -> list[str]:
         df.to_csv(CSV_IDS_FILE, index=False)
         print(f"Recipe IDs have been saved to {CSV_IDS_FILE}!")
 
-    return df["Recipe_ID"].tolist()
+    return all_recipe_ids
 
 
 def scrape_recipies(recipe_ids: list[str]):
     # Fetch details for each recipe ID
-    recipe_data = []
+    print("Scraping recipe details...")
+    recipes = []
     for recipe_id in tqdm(recipe_ids, desc="Fetching Details", unit="recipe"):
         title, description, ingredients = fetch_recipe_details(str(recipe_id))
-        recipe_data.append(
-            {
-                "ID": recipe_id,
-                "Title": title,
-                "Description": description,
-                "Ingredients": ", ".join(ingredients),
-            }
+
+        recipes.append(
+            Recipe(
+                id=recipe_id,
+                title=title,
+                description=description,
+                ingredients=", ".join(ingredients),
+            )
         )
 
-        if len(recipe_data) % 100 == 0:
+        if len(recipes) % 100 == 0:
             time.sleep(2)
 
     # Create a DataFrame and save to .csv
-    df_details = pd.DataFrame(recipe_data)
+    df_details = pd.DataFrame(recipes)
     df_details.to_csv(CSV_OUT, index=False)
     print(f"\nRecipe details have been saved to {CSV_OUT}.csv!")
+    return recipes
 
 
 def scrape_weekly_menus():
+    print("Scraping weekly menus...")
+    weekly_menus = []
     weekly_recipies_url = "https://meny.no/api/weeklyrecipeservice/?page=1&pageSize=200"
     response = requests.get(weekly_recipies_url)
     response.raise_for_status()
@@ -120,28 +141,35 @@ def scrape_weekly_menus():
 
     print(f"Found {len(available_weeks)} weeks with recipies")
 
-    weekly_menus = []
+    # weekly_menus = []
     for year, week in tqdm(available_weeks):
         response = requests.get(WEEKLY_MENU_URL + f"{year}/{week}")
         response.raise_for_status()
         data = response.json()[0]
-        recipes = [
-            {
-                "year": year,
-                "week": week,
-                "week_day": recipe["WeekDay"],
-                "recipe_id": recipe["RecipeId"],
-                "description": recipe["Description"],
-                "title": recipe["Title"],
-                "url": recipe["Url"],
-            }
-            for recipe in data["RecipeList"]
-        ]
-        weekly_menus.extend(recipes)
+
+        for recipe in data["RecipeList"][:7]:  # skip ukens bakst
+            if recipe.get("RecipeId") is None:
+                continue
+
+            title, description, ingredients = fetch_recipe_details(
+                str(recipe["RecipeId"])
+            )
+            weekly_menus.append(
+                Recipe(
+                    id=recipe["RecipeId"],
+                    title=title,
+                    description=description,
+                    ingredients=", ".join(ingredients),
+                    year=year,
+                    week=week,
+                    week_day=recipe["WeekDay"],
+                )
+            )
 
     df_details = pd.DataFrame(weekly_menus)
     df_details.to_csv(CSV_WEEKLY_MENUS, index=False)
     print(f"\nRecipe details have been saved to {CSV_WEEKLY_MENUS}.csv!")
+    return weekly_menus
 
 
 def fetch_offers():
@@ -165,8 +193,11 @@ def fetch_offers():
 
 
 if __name__ == "__main__":
-    # recipie_ids = scrape_recipie_ids()
-    # scrape_recipies(recipie_ids)
-    # scrape_weekly_menus()
+    recipe_ids = scrape_recipie_ids()
+    recipes = scrape_recipies(recipe_ids)
+    menus = scrape_weekly_menus()
+
     # fetch_offers()
-    pass
+
+    df = pd.DataFrame([*recipes, *menus])
+    df.to_csv("data/data.csv")

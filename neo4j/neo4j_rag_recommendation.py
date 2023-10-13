@@ -1,4 +1,4 @@
-# docker run -p 7474:7474 -p 7687:7687 -v $PWD/neo4j/data:/data -v $PWD/neo4j/plugins:/plugins -v=PWD/neo4j/import:/import  --name neo4j-apoc -e NEO4J_AUTH=neo4j/pleaseletmein  -e NEO4J_apoc_export_file_enabled=true -e NEO4J_apoc_import_file_enabled=true -e NEO4J_apoc_import_file_use__neo4j__config=true -e NEO4J_PLUGINS='[\"apoc\"]' neo4j:latest
+# docker run -p 7474:7474 -p 7687:7687 -v $PWD/neo4j/data:/data -v $PWD/neo4j/plugins:/plugins -v $PWD/neo4j/import:/import  --name neo4j-apoc -e NEO4J_AUTH=neo4j/pleaseletmein  -e NEO4J_apoc_export_file_enabled=true -e NEO4J_apoc_import_file_enabled=true -e NEO4J_apoc_import_file_use__neo4j__config=true -e NEO4J_PLUGINS='[\"apoc\", \"graph-data-science\"]' neo4j:latest
 
 
 from langchain.chat_models import ChatOpenAI
@@ -14,12 +14,16 @@ def get_connection():
 
 def populate_database(graph: Neo4jGraph):
     query = """
-        LOAD CSV WITH HEADERS FROM 'file:///all_recipe_details.csv' AS row
-        MERGE (re:Recipie {recipieId: row.ID, description: row.Description})
+        LOAD CSV WITH HEADERS FROM 'file:///recipes.csv' AS row
+        MERGE (re:Recipie {recipieId: row.id, title: row.title, description: row.description, embedding: apoc.convert.fromJsonList(row.vector)})
         WITH re, row
-        UNWIND split(row.Ingredients, ',') AS ingredient
+        UNWIND split(row.ingredients, ', ') AS ingredient
         MERGE (i:Ingredient {title: ingredient})
         MERGE (re)-[r:HAS_INGREDIENT]->(i)
+        WITH re, row
+        WHERE row.year IS NOT NULL OR row.year <> "null"
+        MERGE (m:Menu {year: row.year, week: row.week})
+        MERGE (re)-[:IS_PART_OF_MENU {weekDay: row.week_day}]->(m)
     """
 
     graph.query(query)

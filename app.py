@@ -17,31 +17,33 @@ OPENAI_MODEL = "gpt-3.5-turbo"
 logger = logging.getLogger(__name__)
 
 recipes = pd.read_pickle("data/merged_recipies_and_weekly_menus.pkl")
+offers = pd.read_csv("data/products_on_offer.csv")
 uri = "dataset/chainlit-recipes-lancedb"
 db = lancedb.connect(uri)
 table = db.create_table("recipes", recipes, mode="overwrite")
 
 
-template = """Du er et anbefalingssystem av oppskrifter. Gitt brukerens preferanser, anbefal en ukentlig middagsmeny bestående av 7 oppskrifter.
-For hver dag i uken, gi oppskriften i formatet: 'Navn på dag: Oppskriftsnavn - Kort beskrivelse - Grunn'.
-Hvis du ikke vet svaret, prøv å finne andre oppskrifter du tror gir variasjon til de andre oppskriftene.
-Hvis du fortsatt ikke vet svaret, spør brukeren om de har noen preferanser. 
-Hvis du fortsatt ikke vet svaret, ikke prøv å finne på et svar.
+# template = f"""Du er et anbefalingssystem av oppskrifter som anbefaler oppskriver gitt brukerens preferanser basert på tilbudene på produkter denne uken.
+# For hver dag i uken, gi oppskriften i formatet: 'Navn på dag: Oppskriftsnavn - Kort beskrivelse - Grunn'.
+# Bruk konteksten under for å svare på spørsmålet.
+# Hvis du fortsatt ikke vet svaret, spør brukeren om de har noen preferanser.
+# Hvis du fortsatt ikke vet svaret, ikke prøv å finne på et svar.
+#
+# {{context}}
+#
+# Produkter på tilbud: {offers["title"].tolist()}
+#
+# Spørsmål: {{question}}
+# Ditt svar:"""
+template = """You are a recipe recommender system that help users to find weekly menus that match their preferences. 
+Use the following pieces of context to answer the question at the end. 
+For each question, suggest 7 recipies for a weekly menu, with a short description of the dish and the reason why the user might like it. Use the names of the week days to refer to the days of the week.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
 
 {context}
 
-Spørsmål: {question}
-Ditt svar:"""
-# template = """You are a recipe recommender system. Given the user's preferences, recommend a weekly dinner menu consisting of 7 recipes.
-# For each day in the week, provide the recipe in the format: 'Name of Day: Recipe Name - Short Description - Reason'.
-# Do not suggest the same recipe twice.
-# If you don't know the answer, try to find other recipies you think add variation to the other recipes.
-# If you still don't know the answer, don't try to make up an answer.
-#
-# {context}
-#
-# Question: {question}
-# Your response:"""
+Question: {question}
+Your response:"""
 
 
 @cl.action_callback("action_button")
@@ -57,7 +59,7 @@ async def on_action(action):
 async def on_action(action):
     llm_chain = cl.user_session.get("llm_chain")  # type: LLMChain
 
-    query = "Foreslå en ukesmeny med varierte oppskrifter"  # "Suggest a weekly dinner menu with diverse recipes."
+    query = "Weekly menu of 7 recipes"
     res = await llm_chain.acall(query, callbacks=[cl.AsyncLangchainCallbackHandler()])
     await process_message(res)
     await action.remove()
@@ -70,7 +72,6 @@ async def main():
     # docsearch = LanceDB(connection=table, embedding=embeddings)
 
     PROMPT = PromptTemplate(template=template, input_variables=["context", "question"])
-
     chain_type_kwargs = {"prompt": PROMPT}
 
     llm = ChatOpenAI(model=OPENAI_MODEL)
@@ -78,18 +79,19 @@ async def main():
 
     memory = ConversationBufferMemory(
         memory_key="chat_history",
-        output_key="answer",
+        output_key="result",
         chat_memory=message_history,
         return_messages=True,
     )
 
-    qa = ConversationalRetrievalChain.from_llm(
+    qa = RetrievalQA.from_chain_type(
         llm=llm,
         chain_type="stuff",
-        retriever=docsearch.as_retriever(search_kwargs={"k": 7}),
+        retriever=docsearch.as_retriever(search_kwargs={"k": 25}),
         memory=memory,
         return_source_documents=True,
-        combine_docs_chain_kwargs=chain_type_kwargs,
+        chain_type_kwargs=chain_type_kwargs,
+        verbose=True,
     )
 
     # Store the chain in the user session
@@ -122,7 +124,7 @@ async def main(message: str):
 
 async def process_message(res):
     # logger.info(res)
-    answer = res["answer"]
+    answer = res["result"]
     source_documents = res["source_documents"]  # type: List[Document]
     actions = []
     if source_documents:
