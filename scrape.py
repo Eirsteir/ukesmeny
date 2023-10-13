@@ -42,13 +42,11 @@ def fetch_recipe_details(recipe_id):
     title = data.get("name", "")
     description = data.get("description", "")
     recipie_details = data.get("recipeDetails", [])
-    ingredients = []
-
-    if recipie_details:
-        ingredients = [
-            ingredient["name"]
-            for ingredient in recipie_details[0].get("ingredients", [])
-        ]
+    ingredients = [
+        ingredient["name"]
+        for detail in recipie_details
+        for ingredient in detail.get("ingredients", [])
+    ]
 
     return title, description, ingredients
 

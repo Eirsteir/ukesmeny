@@ -12,11 +12,12 @@ from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 import pandas as pd
 from langchain.llms import OpenAI
 
-OPENAI_MODEL = "gpt-3.5-turbo"
+OPENAI_MODEL = "gpt-4"  # "gpt-3.5-turbo"
 
 logger = logging.getLogger(__name__)
 
-recipes = pd.read_pickle("data/merged_recipies_and_weekly_menus.pkl")
+recipes = pd.read_pickle("data/preprocessed/recipes.pkl")
+recipes.drop_duplicates(subset=["id"], inplace=True)  # Must for this dataset
 offers = pd.read_csv("data/products_on_offer.csv")
 uri = "dataset/chainlit-recipes-lancedb"
 db = lancedb.connect(uri)
@@ -55,6 +56,16 @@ async def on_action(action):
     await action.remove()
 
 
+@cl.action_callback("offers_recommend_button")
+async def on_action(action):
+    llm_chain = cl.user_session.get("llm_chain")  # type: LLMChain
+    all_offers = offers["title"].tolist()
+    query = ", ".join(all_offers[: round(len(all_offers) * 0.8)])
+    res = await llm_chain.acall(query, callbacks=[cl.AsyncLangchainCallbackHandler()])
+    await process_message(res)
+    await action.remove()
+
+
 @cl.action_callback("recommend_button")
 async def on_action(action):
     llm_chain = cl.user_session.get("llm_chain")  # type: LLMChain
@@ -87,7 +98,7 @@ async def main():
     qa = RetrievalQA.from_chain_type(
         llm=llm,
         chain_type="stuff",
-        retriever=docsearch.as_retriever(search_kwargs={"k": 25}),
+        retriever=docsearch.as_retriever(search_kwargs={"k": 10}),
         memory=memory,
         return_source_documents=True,
         chain_type_kwargs=chain_type_kwargs,
@@ -102,7 +113,13 @@ async def main():
             value="example_value",
             label="Recommend",
             description="Click me!",
-        )
+        ),
+        cl.Action(
+            name="offers_recommend_button",
+            value="example_value",
+            label="Recommend with offers",
+            description="Click me!",
+        ),
     ]
 
     await cl.Message(
@@ -132,7 +149,7 @@ async def process_message(res):
         ingredients = set(
             ingredient
             for doc in source_documents
-            for ingredient in doc.metadata["Ingredients"].split(", ")
+            for ingredient in doc.metadata["ingredients"].split(", ")
         )
         cl.user_session.set("current_ingredients", ingredients)
         actions.append(
