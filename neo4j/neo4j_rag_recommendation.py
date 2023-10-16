@@ -14,16 +14,26 @@ def get_connection():
 
 def populate_database(graph: Neo4jGraph):
     query = """
+        // Step 1: Load the CSV and update or create the Recipe nodes
         LOAD CSV WITH HEADERS FROM 'file:///recipes.csv' AS row
-        MERGE (re:Recipie {recipieId: row.id, title: row.title, description: row.description, embedding: apoc.convert.fromJsonList(row.vector)})
-        WITH re, row
+        MATCH (re:Recipe {recipieId: row.id})
+        SET re.openaiEmbeddings = apoc.convert.fromJsonList(row.vector),
+            re.title = row.title,
+            re.description = row.description;
+        
+        // Step 2: Create the relationships between Recipe and Ingredient
+        LOAD CSV WITH HEADERS FROM 'file:///recipes.csv' AS row
+        MATCH (re:Recipe {recipieId: row.id})
         UNWIND split(row.ingredients, ', ') AS ingredient
         MERGE (i:Ingredient {title: ingredient})
-        MERGE (re)-[r:HAS_INGREDIENT]->(i)
-        WITH re, row
+        MERGE (re)-[r:HAS_INGREDIENT]->(i);
+        
+        // Step 3: Create the relationships between Recipe and Menu
+        LOAD CSV WITH HEADERS FROM 'file:///recipes.csv' AS row
+        MATCH (re:Recipe {recipieId: row.id})
         WHERE row.year IS NOT NULL OR row.year <> "null"
         MERGE (m:Menu {year: row.year, week: row.week})
-        MERGE (re)-[:IS_PART_OF_MENU {weekDay: row.week_day}]->(m)
+        MERGE (re)-[:IS_PART_OF_MENU {weekDay: row.week_day}]->(m);
     """
 
     graph.query(query)

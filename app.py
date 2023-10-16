@@ -7,12 +7,17 @@ import lancedb
 from langchain.chat_models import ChatOpenAI
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.memory import ChatMessageHistory, ConversationBufferMemory
+from langchain.schema import SystemMessage
 from langchain.vectorstores import LanceDB
 from langchain.chains import RetrievalQA, ConversationalRetrievalChain
 import pandas as pd
 from langchain.llms import OpenAI
+from langchain.agents.agent_toolkits import create_retriever_tool
+from langchain.agents.agent_toolkits import create_conversational_retrieval_agent
+from langchain.agents.agent_types import AgentType
 
-OPENAI_MODEL = "gpt-4"  # "gpt-3.5-turbo"
+
+OPENAI_MODEL = "gpt-3.5-turbo-16k-0613"  # "gpt-3.5-turbo"
 
 logger = logging.getLogger(__name__)
 
@@ -36,10 +41,9 @@ table = db.create_table("recipes", recipes, mode="overwrite")
 #
 # Spørsmål: {{question}}
 # Ditt svar:"""
-template = """You are a recipe recommender system that help users to find weekly menus that match their preferences. 
-Use the following pieces of context to answer the question at the end. 
-For each question, suggest 7 recipies for a weekly menu, with a short description of the dish and the reason why the user might like it. Use the names of the week days to refer to the days of the week.
-If you don't know the answer, just say that you don't know, don't try to make up an answer.
+template = """You are a recommender chatting with the user to provide recipe recommendation. You must follow the instructions below during chat. You can recommend either a recipe plan for a week or single recipes. 
+If you do not have enough information about user preference, you should ask the user for his preference.
+If you have enough information about user preference, you can give recommendation. The recommendation list must contain 10 items that are consistent with user preference. The recommendation list can contain items that the dialog mentioned before. 
 
 {context}
 
@@ -90,18 +94,50 @@ async def main():
 
     memory = ConversationBufferMemory(
         memory_key="chat_history",
-        output_key="result",
+        output_key="answer",
         chat_memory=message_history,
         return_messages=True,
     )
 
-    qa = RetrievalQA.from_chain_type(
-        llm=llm,
-        chain_type="stuff",
-        retriever=docsearch.as_retriever(search_kwargs={"k": 10}),
-        memory=memory,
-        return_source_documents=True,
-        chain_type_kwargs=chain_type_kwargs,
+    # qa = ConversationalRetrievalChain.from_chain_type(
+    #     llm=llm,
+    #     chain_type="stuff",
+    #     retriever=docsearch.as_retriever(search_kwargs={"k": 20}),
+    #     memory=memory,
+    #     return_source_documents=True,
+    #     chain_type_kwargs=chain_type_kwargs,
+    #     verbose=True,
+    # )
+    # qa = ConversationalRetrievalChain.from_llm(
+    #     llm=llm,
+    #     chain_type="stuff",
+    #     retriever=docsearch.as_retriever(search_kwargs={"k": 20}),
+    #     memory=memory,
+    #     return_source_documents=True,
+    #     combine_docs_chain_kwargs=chain_type_kwargs,
+    #     verbose=True,
+    # )
+
+    tool = create_retriever_tool(
+        docsearch.as_retriever(search_kwargs={"k": 12}),
+        "recommend_recipes_or_menus",
+        "Recommends dinner recipes or menus based on user preferences. Invokations must be in norwegian.",
+    )
+    tools = [tool]
+    system_message = SystemMessage(
+        content=(
+            """You are a recommender chatting with the user to provide dinner recipe recommendation. You must follow the instructions below during chat. You can recommend either a recipe plan for a week or single recipes. 
+                If you do not have enough information about user preference, you should ask the user for his preference.
+                If you have enough information about user preference, you can give recommendation. The recommendation list can contain items that the dialog mentioned before."""
+        )
+    )
+
+    qa = create_conversational_retrieval_agent(
+        llm,
+        tools,
+        system_message=system_message,
+        remember_intermediate_steps=True,
+        # max_tokens_limit=4000,
         verbose=True,
     )
 
@@ -141,27 +177,27 @@ async def main(message: str):
 
 async def process_message(res):
     # logger.info(res)
-    answer = res["result"]
-    source_documents = res["source_documents"]  # type: List[Document]
+    answer = res["output"]
+    # source_documents = res["source_documents"]  # type: List[Document]
     actions = []
-    if source_documents:
-        logger.info(f"Found {len(source_documents)} documents: {source_documents}")
-        ingredients = set(
-            ingredient
-            for doc in source_documents
-            for ingredient in doc.metadata["ingredients"].split(", ")
-        )
-        cl.user_session.set("current_ingredients", ingredients)
-        actions.append(
-            cl.Action(
-                name="action_button",
-                value="example_value",
-                description="Click me!",
-                label="Add to shopping list",
-            )
-        )
-    # "res" is a Dict. For this chain, we get the response by reading the "text" key.
-    # This varies from chain to chain, you should check which key to read.
+    # if source_documents:
+    #     logger.info(f"Found {len(source_documents)} documents: {source_documents}")
+    #     ingredients = set(
+    #         ingredient
+    #         for doc in source_documents
+    #         for ingredient in doc.metadata["ingredients"].split(", ")
+    #     )
+    #     cl.user_session.set("current_ingredients", ingredients)
+    #     actions.append(
+    #         cl.Action(
+    #             name="action_button",
+    #             value="example_value",
+    #             description="Click me!",
+    #             label="Add to shopping list",
+    #         )
+    #     )
+    # # "res" is a Dict. For this chain, we get the response by reading the "text" key.
+    # # This varies from chain to chain, you should check which key to read.
     await cl.Message(content=answer, actions=actions).send()
 
 
