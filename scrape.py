@@ -8,7 +8,9 @@ import pandas as pd
 from tqdm import tqdm
 
 DINNERS_URL = "https://meny.no/oppskrifter/middagstips/"
-RECIPIE_DETAIL_URL = "https://platform-rest-prod.ngdata.no/api/recipes2/1300/"
+RECIPIE_DETAIL_URL = (
+    lambda id: f"https://platform-rest-prod.ngdata.no/api/recipes2/1300/{id}?full_response=true&fieldset=maximal"
+)
 BASE_URL = "https://meny.no/"
 WEEKLY_MENU_URL = "https://meny.no/api/weeklyrecipeservice/"
 CURRENT_OFFERS_URL = "https://platform-rest-prod.ngdata.no/api/products/1300/7080001271923?page=1&page_size=140&full_response=true&fieldset=maximal&facets=Category%2CAllergen&facet=IsOffer%3Atrue%3BCategories%3AMiddag&showNotForSale=true"
@@ -27,6 +29,8 @@ class Recipe:
     year: int = None
     week: int = None
     week_day: str = None
+    keywords: list[str] = None
+    tags: list[str] = None
 
 
 def extract_recipe_ids(page_content):
@@ -36,9 +40,10 @@ def extract_recipe_ids(page_content):
 
 
 def fetch_recipe_details(recipe_id):
-    response = requests.get(RECIPIE_DETAIL_URL + recipe_id)
+    response = requests.get(RECIPIE_DETAIL_URL(recipe_id))
     response.raise_for_status()
     data = response.json()
+    data = data.get("_source", {})
     title = data.get("name", "")
     description = data.get("description", "")
     recipie_details = data.get("recipeDetails", [])
@@ -47,8 +52,10 @@ def fetch_recipe_details(recipe_id):
         for detail in recipie_details
         for ingredient in detail.get("ingredients", [])
     ]
+    keywords = data.get("keywords", "").split(", ")
+    tags = data.get("tags", [])
 
-    return title, description, ingredients
+    return title, description, ingredients, keywords, tags
 
 
 def scrape_recipie_ids() -> list[str]:
@@ -105,7 +112,9 @@ def scrape_recipies(recipe_ids: list[str]):
     print("Scraping recipe details...")
     recipes = []
     for recipe_id in tqdm(recipe_ids, desc="Fetching Details", unit="recipe"):
-        title, description, ingredients = fetch_recipe_details(str(recipe_id))
+        title, description, ingredients, keywords, tags = fetch_recipe_details(
+            str(recipe_id)
+        )
 
         recipes.append(
             Recipe(
@@ -113,6 +122,8 @@ def scrape_recipies(recipe_ids: list[str]):
                 title=title,
                 description=description,
                 ingredients=", ".join(ingredients),
+                keywords=keywords,
+                tags=tags,
             )
         )
 
@@ -149,7 +160,7 @@ def scrape_weekly_menus():
             if recipe.get("RecipeId") is None:
                 continue
 
-            title, description, ingredients = fetch_recipe_details(
+            title, description, ingredients, keywords, tags = fetch_recipe_details(
                 str(recipe["RecipeId"])
             )
             weekly_menus.append(
@@ -158,6 +169,8 @@ def scrape_weekly_menus():
                     title=title,
                     description=description,
                     ingredients=", ".join(ingredients),
+                    keywords=keywords,
+                    tags=tags,
                     year=year,
                     week=week,
                     week_day=recipe["WeekDay"],
