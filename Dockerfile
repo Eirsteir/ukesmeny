@@ -8,7 +8,7 @@ EXPOSE 8080
  
 RUN apt-get update && apt-get install -y git
   
-RUN pip install langchain chainlit lancedb pandas openai
+RUN pip install langchain chainlit lancedb pandas openai tiktoken
  
 WORKDIR app/
  
