@@ -16,4 +16,4 @@ COPY ./data/preprocessed/recipes.pkl /app/data/preprocessed/recipes.pkl
 COPY ./app.py /app/app.py
 COPY ./chainlit.md /app/chainlit.md
  
-ENTRYPOINT ["chainlit", "run", "app.py", "--host=0.0.0.0", "--port=80", "--headless"]
+ENTRYPOINT ["chainlit", "run", "app.py"]
