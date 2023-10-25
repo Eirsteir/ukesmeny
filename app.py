@@ -7,19 +7,17 @@ from langchain import LLMChain
 from langchain.agents.agent_toolkits import create_conversational_retrieval_agent
 from langchain.agents.agent_toolkits import create_retriever_tool
 from langchain.chat_models import ChatOpenAI
-from langchain.document_loaders import DataFrameLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.schema import SystemMessage
 from langchain.vectorstores import LanceDB
 
-OPENAI_MODEL = "gpt-3.5-turbo-16k-0613"  # "gpt-3.5-turbo"
+OPENAI_MODEL = "gpt-3.5-turbo-16k"  # "gpt-3.5-turbo"
 
 logger = logging.getLogger(__name__)
 
 recipes = pd.read_pickle("data/preprocessed/recipes.pkl")
 recipes.drop_duplicates(subset=["id"], inplace=True)  # Must for this dataset
 recipes.drop("target", axis=1, inplace=True)
-offers = pd.read_csv("data/products_on_offer.csv")
 
 uri = "dataset/chainlit-recipes-lancedb"
 db = lancedb.connect(uri)
