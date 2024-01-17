@@ -59,7 +59,7 @@ if __name__ == "__main__":
         ChatOpenAI(
             temperature=0,
             model="gpt-3.5-turbo",
-            openai_api_key="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",
+            openai_api_key="",
         ),
         graph=graph,
         verbose=True,

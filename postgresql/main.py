@@ -4,7 +4,7 @@ from langchain.sql_database import SQLDatabase
 from langchain.agents.agent_types import AgentType
 from langchain.chat_models import ChatOpenAI
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 
 
 if __name__ == "__main__":
