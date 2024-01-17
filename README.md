@@ -1,5 +1,5 @@
 # Ukesmeny 
-An LLM-based dinner recipe recommender system for inspiration and weekly menus. All recipes are from Meny.no.  
+An LLM-based dinner recipe recommender system for inspiration and weekly menus. All recipes are from Meny.no. Publicly available at https://ukesmeny.onrender.com.  
 
 The main application is a chainlit chat application with a simple UI, which can be run locally or deployed to a server. It is a RAG (retrieval augmented generation) application built with LangChain which feeds scraped and preprocessed recipes from Meny.no into gpt-turbo-3.5. Retrieval occurs over a LanceDB vector store.  
 
